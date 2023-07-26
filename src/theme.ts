@@ -3,7 +3,7 @@ import { createContext, useMemo } from 'react';
 import { createTheme } from '@mui/material/styles';
 
 // color design tokens export
-export const tokens = (mode: any) => ({
+export const tokens = (mode: string) => ({
   ...(mode === 'dark'
     ? {
         grey: {
