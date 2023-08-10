@@ -166,7 +166,7 @@ const Dashboard: React.FC = () => {
             <Box sx={{ backgroundColor: colors.primary[400] }}>
               <Box
                 mt='25px'
-                p='0 30px'
+                p='15px 30px'
                 display='flex'
                 justifyContent='space-between'
                 alignItems='center'
@@ -230,7 +230,7 @@ const Dashboard: React.FC = () => {
               <Typography
                 variant='h5'
                 fontWeight='600'
-                sx={{ padding: '30px 30px 0 30px' }}
+                sx={{ padding: '20px 30px 15px 30px' }}
               >
                 Sales Quantity
               </Typography>

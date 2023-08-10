@@ -19,10 +19,7 @@ interface AxisProps {
   legendPosition: 'start' | 'middle' | 'end';
 }
 
-const LineChart: FC<LineChartProps> = ({
-  isCustomLineColors = false,
-  isDashboard = false,
-}) => {
+const LineChart: FC<LineChartProps> = ({ isDashboard = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -83,7 +80,7 @@ const LineChart: FC<LineChartProps> = ({
         },
       }}
       colors={isDashboard ? { datum: 'color' } : { scheme: 'nivo' }}
-      margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
+      margin={{ top: 40, right: 110, bottom: 50, left: 60 }}
       xScale={{ type: 'point' }}
       yScale={{
         type: 'linear',
