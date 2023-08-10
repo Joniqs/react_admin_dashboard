@@ -1,6 +1,6 @@
 # React Admin Dashboard
 
-![Dashboard Screenshot](../../assets/dashboard-screenshot.png)
+![Dashboard Screenshot](./public/assets/dashboard-screenshot.png)
 
 A responsive and customizable admin dashboard template built using React and designed for easy integration into your projects. This dashboard provides a variety of components and features to help you quickly set up an admin interface for your application.
 
